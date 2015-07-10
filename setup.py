@@ -4,7 +4,7 @@ from setuptools import setup
 from setuptools import find_packages
 
 version = __import__('pelican-linkedin-profile').__version__
-download_url = 'https://github.com/octetsetquartdepouces/pelican-linkedin-profile/archive/{}.zip'.format(version)
+download_url = 'https://github.com/octetsetquartdepouces/pelican-linkedin-profile/archive/v{}.zip'.format(version)
 
 setup(name='pelican-linkedin-profile',
       version=version,

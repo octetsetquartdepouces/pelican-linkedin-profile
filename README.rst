@@ -1,6 +1,6 @@
-==============
-Pelican LinkedIn
-==============
+========================
+Pelican LinkedIn Profile
+========================
 
 Extract a LinkedIn profile and allow the use of his informations in Pelican's pages
 
@@ -70,9 +70,9 @@ In your templates you will have access to a linkedin_profile variable as below.
 .. code-block:: html
 
     <div>
-		<h2>{{ linkedin_profile.formattedName }}</h2>
-		<p>{{ linkedin_profile.headline }}</p>
-	</div>
+        <h2>{{ linkedin_profile.formattedName }}</h2>
+        <p>{{ linkedin_profile.headline }}</p>
+    </div>
 
 License
 =======
