@@ -101,7 +101,6 @@ class LinkedInProfileGenerator(Generator):
         current_lang = self.settings['DEFAULT_LANG']
         if current_lang in _LANGUAGE_ASSOCIATION.keys():
             self.linkedin_lang = _LANGUAGE_ASSOCIATION[current_lang]
-        print self.linkedin_lang
         self.headers = {'Accept-Language': self.linkedin_lang}
 
         try:
