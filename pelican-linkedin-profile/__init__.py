@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 __title__ = 'pelican-linkedin-profile'
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 __author__ = 'Kyah'
 __credits__ = ["Kyah", ]
 __maintainer__ = "Kyah"
